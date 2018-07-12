@@ -1,6 +1,6 @@
 Using Grpc (https://ewanvalentine.io/microservices-in-golang-part-1/, https://ewanvalentine.io/microservices-in-golang-part-2/)<Br>
 <Br>
-1. export GOPATH to this Directory.<Br>
+1. export GOPATH to this Clone Directory.<Br>
 <Br>
 2. Depedency<Br>
 go get -u google.golang.org/grpc<Br>
