@@ -1,5 +1,5 @@
 build:
-	protoc -I. --go_out=plugins=grpc:/data/gomicroservice/src/github.com/consignment-service proto/consignment/consignment.proto
+	protoc -I. --go_out=plugins=grpc:$(GOPATH)/src/github.com/consignment-service proto/consignment/consignment.proto
 	GOOS=linux
 	GOARCH=amd64
 	go build
