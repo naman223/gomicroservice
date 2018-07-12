@@ -1,11 +1,12 @@
 Using Grpc (https://ewanvalentine.io/microservices-in-golang-part-1/, https://ewanvalentine.io/microservices-in-golang-part-2/)<Br>
+<Br>
 1. export GOPATH to this Directory.<Br>
+<Br>
 2. Depedency<Br>
 go get -u google.golang.org/grpc<Br>
 go get -u github.com/golang/protobuf/protoc-gen-go<Br>
 <Br>
 3. Build<Br>
-<Br>
 cd src/github.com/consignment-service/<Br>
 make build<Br>
 make run<Br>
